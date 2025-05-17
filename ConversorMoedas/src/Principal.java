@@ -1,5 +1,3 @@
-package aplicacao;
-
 import menu.OpcaoMoeda;
 import servico.RegistroConversao;
 import servico.ServicoCambio;
@@ -10,8 +8,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class AplicativoConversorMoedas {
 
+
+public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -64,5 +63,9 @@ public class AplicativoConversorMoedas {
             }
         }
         scanner.close();
+
+
+
+
     }
 }
